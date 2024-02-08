@@ -2,3 +2,8 @@
 .custom-line-height {
     line-height: 2.5rem;
 }
+
+#test {
+    background-image: url('./assets//card-image.jpg');
+    background-size: cover;
+}

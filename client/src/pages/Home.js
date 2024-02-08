@@ -2,7 +2,7 @@ import React from 'react'
 
 // Components
 import Navbar from '../components/Navbar'
-import Carousel from '../components/Carousel'
+import ProjectCard from '../components/ProjectCard'
 
 export default function Home() {
   return (
@@ -21,10 +21,14 @@ export default function Home() {
           <p>NodeJS</p>
         </div>
         <div className="projects my-28">
-          <h1 className='text-2xl sm:text-3xl lg:text-4xl text-center mb-10'>It aint much work, but its honest work</h1>
-          <Carousel />
+          <h1 className='text-2xl sm:text-3xl lg:text-4xl text-center mb-12'>It aint much work, but its honest work</h1>
+          <div className="project-cards flex justify-evenly">
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+            <ProjectCard />
+          </div>
         </div>
-        {/* CAROUSEL GOES HERE */}
       </div>
     </div>
   )
